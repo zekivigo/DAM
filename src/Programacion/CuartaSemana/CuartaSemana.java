@@ -1,4 +1,4 @@
-package Programacion;
+package Programacion.CuartaSemana;
 
 import java.util.Scanner;
 

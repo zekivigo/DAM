@@ -1,4 +1,4 @@
-package Programacion;
+package Programacion.CuartaSemana;
 
 public class CuartaSemana_Ejercicio10 {
     public static void ejercicio10(){
