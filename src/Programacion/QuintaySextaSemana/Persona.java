@@ -6,6 +6,7 @@ public class Persona {
     public int edad;
     public double peso;
     public double estatura;
+    private int codigo;
 
 
 }
