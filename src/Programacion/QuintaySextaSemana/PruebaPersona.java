@@ -27,6 +27,36 @@ public class PruebaPersona {
         System.out.println(usuario2.nombre + ", " + usuario2.apellidos + ", " + usuario2.estatura + ", "
                 + usuario2.edad + ", " + usuario2.peso + ", " + usuario2.estatura + ", "+ usuario2.codigo);
 
+        //Ejercicio 7:
+        Persona usuario3 = new Persona("Paco", "Gomez", 34, 82.45, 1.85, 2);
+        System.out.println("\nEjercicio 7\n" + usuario3.nombre +" " + usuario3.apellidos +". Mide: " + usuario3.estatura
+                +". Tiene una edad de "+ usuario3.edad);
+
+        //EJERCICIO 9:
+        Persona_Ejercicio9 persona1_Ejercicio9 = new Persona_Ejercicio9();
+        Persona_Ejercicio9 persona2_Ejercicio9 = new Persona_Ejercicio9();
+        persona1_Ejercicio9.setNombre("Paco");
+        persona2_Ejercicio9.setEdad(40);
+        System.out.println("\nEjercicio 9 \nEl nombre del primer usuario es " + persona1_Ejercicio9.getNombre() +
+                ". La edad del segundo usuario es " + persona2_Ejercicio9.getEdad());
+
+        //EJERCICIO 11:
+        Persona_Ejercicio9 persona_ejercicio11 = new Persona_Ejercicio9();
+        System.out.println("\nEjercicio 11");
+        System.out.println("1. IMC: "+persona_ejercicio11.calcularIMC(1.80, 1.70));
+        System.out.println("2. El usuario es mayor de edad? " +persona_ejercicio11.esMayorDeEdad(17));
+        System.out.print("3. La edad esta comprendida entre 0-150? ");
+        persona_ejercicio11.setEdad(151);
+        System.out.println(persona_ejercicio11.getEdad());
+        persona_ejercicio11.setNombre("Pepe");
+        persona_ejercicio11.setApellidos("Gomez");
+        persona_ejercicio11.setEdad(78);
+        persona_ejercicio11.imprimirDatos();
+
+
+
+
+
 
 
 
