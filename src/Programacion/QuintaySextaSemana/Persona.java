@@ -6,7 +6,15 @@ public class Persona {
     public int edad;
     public double peso;
     public double estatura;
-    private int codigo;
+    public int codigo;
 
-
+    //Ejercicio 5:
+    public Persona() {
+        this.nombre = "Sin especificar";
+        this.apellidos = "Sin especificar";
+        this.edad = 0;
+        this.peso = 0.0;
+        this.estatura = 0.0;
+        this.codigo = 0;
+    }
 }

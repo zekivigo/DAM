@@ -12,7 +12,7 @@ public class PruebaPersona {
         System.out.println(persona1.nombre + " " + persona1.apellidos + " " + persona1.estatura + " "
                 + persona1.edad + " " + persona1.peso + " " + persona1.estatura);
 
-        //Ejercicio 3":
+        //Ejercicio 3:
         Persona usuario = new Persona();
         usuario.nombre = "Pedro";
         System.out.println(usuario.nombre);
@@ -20,6 +20,13 @@ public class PruebaPersona {
         System.out.println(usuario.nombre);
         //usuario.codigo = 2; Nos da error porque es un atributo privado de Persona, y solo es accesible desde
         //esa clase.
+
+        //Ejercicio 5:
+        Persona usuario2 = new Persona();
+        System.out.println("\nEjercicio 5");
+        System.out.println(usuario2.nombre + ", " + usuario2.apellidos + ", " + usuario2.estatura + ", "
+                + usuario2.edad + ", " + usuario2.peso + ", " + usuario2.estatura + ", "+ usuario2.codigo);
+
 
 
 
