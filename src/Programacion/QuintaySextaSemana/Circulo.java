@@ -35,8 +35,28 @@ class Circulo_Ejercicio4 {
         this.radio = radio;
     }else{
         System.out.println("El radio no puede ser menor que 0");
+    }}
+
+    public double calcularArea() {
+        return PI * (radio * radio);
     }
-}
+
+    public double carcularLongitud() {
+        return 2 * (PI * radio);
+    }
+
+    public void aumentarRadio(double aumento) {
+        this.radio = this.radio + (this.radio * aumento);
+    }
+
+    public void imprimirDatos(){
+        System.out.println("El radio es: " + radio);
+        System.out.println("Pi es: " + PI);
+        System.out.println("El area es: " + calcularArea());
+        System.out.println("La longitud es: " + carcularLongitud());
+    }
+
+
 }
 
 

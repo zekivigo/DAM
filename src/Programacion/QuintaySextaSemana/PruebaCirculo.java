@@ -27,5 +27,12 @@ public class PruebaCirculo {
         circulo_Ejercicio10.setRadio(-1.5);
         System.out.println(circulo_Ejercicio10.getRadio());
 
+        //EJERCICIO 12:
+        Circulo_Ejercicio4 circulo_Ejercicio12 = new Circulo_Ejercicio4();
+        System.out.println("\nEjercicio 12");
+        circulo_Ejercicio12.setRadio(4.0);
+        circulo_Ejercicio12.imprimirDatos();
+        circulo_Ejercicio12.aumentarRadio(4.00);
+        circulo_Ejercicio12.imprimirDatos();
 
 }}
