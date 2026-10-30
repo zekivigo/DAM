@@ -8,11 +8,14 @@ public class Ejercicio3 {
         System.out.println("Ingrese un numero: ");
         int numero = sc.nextInt();
 
-        if (numero >= 0) {
+        if (numero > 0) {
             System.out.println("El numero "
                     +numero + " es un numero positivo");
-        } else {
+        } else if ( numero < 0) {
             System.out.println("El numero "
                     +numero + " es un numero negativo");
+        } else { //Ejercicio 6.
+            System.out.println("El numero "
+                    +numero + " no es negativo ni positivo.");
     }
 }}
