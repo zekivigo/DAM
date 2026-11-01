@@ -18,8 +18,8 @@ public class Ejercicio12 {
             System.out.println("Orden introducido incorrecto");
         }
 
-        while (numeroMayor >= numeroMenor) {
+       // while (numeroMayor >= numeroMenor) {
 
-        }
+        //}
     }
 }
