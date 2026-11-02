@@ -11,15 +11,27 @@ public class Ejercicio12 {
         int numeroMenor = sc.nextInt();
 
         if (numeroMayor > numeroMenor) {
-            for (int i = numeroMayor; i >= 1; i--) {
-                System.out.println(i + " ");
+            System.out.print("For: ");
+            for (int i = numeroMayor; i >= numeroMenor; i--) {
+                System.out.print(i + ", ");
             }
         }else {
             System.out.println("Orden introducido incorrecto");
+            return;
         }
 
-       // while (numeroMayor >= numeroMenor) {
+        int parawhile = numeroMayor;
+        System.out.print("\nWhile: ");
+        while (numeroMenor <= parawhile) {
+            System.out.print (parawhile + ", ");
+            parawhile--;
+        }
 
-        //}
-    }
+        int paradowhile = numeroMayor;
+        System.out.print("\nDo while: ");
+        do {
+            System.out.print (paradowhile + ", ");
+            paradowhile--;
+        } while (paradowhile >= numeroMenor);
+  }
 }
