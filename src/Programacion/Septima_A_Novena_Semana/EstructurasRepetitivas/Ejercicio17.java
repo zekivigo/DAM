@@ -10,9 +10,9 @@ public class Ejercicio17 {
 
         int multiplo = 8;
 
-        int numero = sc.nextInt();
+        int numeroA = sc.nextInt();
         for (int i = 1; i <= 10; i++) {
             // RECUERDA; en el "for" creamos i y le damos el valor inicial de 1.
             System.out.println(numero + " x " + i + " = " + (numero * i));
     }
-}
+}}
