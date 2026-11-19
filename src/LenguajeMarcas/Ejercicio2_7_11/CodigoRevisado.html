@@ -40,7 +40,7 @@
             <!-- cosntrui los desplegables como sale en los apuntes de DAM-->
             <label for="dia" style="display:none;">Día</label>
             <select id="dia" name="Dia">
-                <option selected>día</option>
+                <option value="" selected>día</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -76,7 +76,7 @@
 
             <label for="mes" style="display:none;">Mes</label>
             <select id="mes" name="Mes">
-                <option selected>mes</option>
+                <option value="" selected>mes</option>
                 <option value="1">Enero</option>
                 <option value="2">Febrero</option>
                 <option value="3">Marzo</option>
@@ -151,8 +151,6 @@
                     <label for="modulo_Adm_bd">Administración de Sistemas Gestores de Bases de Datos</label>
                 </td>
             </tr>
-                </td>
-            </tr>
             <tr>
                 <td>
                     <input type="checkbox" id="modulo_lenguajes_marcas" name="Modulos" value="Lenguajes de Marcas y Sistemas de Gestión de Información" />
@@ -186,7 +184,7 @@
         </table>
 
         <br />
-        <b>Estudios previos:</b>
+        <label for="estudios_previos"><b>Estudios previos:</b></label>
         <br />
         <textarea id="estudios_previos" name="EstudiosPrevios" rows="2" cols="50"></textarea>
         </fieldset>
@@ -195,7 +193,7 @@
         <input type="submit" value="Enviar" />
         <input type="reset" value="Restablecer" />
     </form>
-    
+
     <p><b>Pulsa el botón de "enviar" para formalizar la matrícula o el boton de "restablecer" para limpiar el
             formulario.</b></p>
 </body>
