@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<guia_telefonica>
+    <persona>  
+        <nombre>Paco</nombre>
+        <apellidos>Perez Perez</apellidos>
+        <direccion>Sin Calle 123</direccion>
+        <telefonos>
+            <fijo>986101010</fijo>
+            <movil>202020203</movil>
+            <trabajo>303030304</trabajo>        
+        </telefonos>
+    </persona>
+</guia_telefonica>

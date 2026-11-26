@@ -37,4 +37,11 @@
 <line x1="540" y1="460" x2="560" y2="440" style="stroke:green;stroke-width:12" />
 <line x1="560" y1="460" x2="580" y2="440" style="stroke:green;stroke-width:12" />
 <line x1="580" y1="460" x2="600" y2="440" style="stroke:green;stroke-width:12" />
+
+<rect width="200" height="125" x="700" y="325" style="fill:rgba(192, 122, 41, 0.92);stroke-width:3" />
+<rect width="45" height="45" x="720" y="340" style="fill:brown;stroke:black;stroke-width:5;opacity:0.5" />
+<rect width="45" height="45" x="830" y="340" style="fill:brown;stroke:black;stroke-width:5;opacity:0.5" />
+<rect width="40" height="80" x="778" y="370" style="fill:brown;stroke:black;stroke-width:5;opacity:0.5" />
+<polygon points="800,200 908,325 690,325" style="fill:rgba(73, 23, 23, 1.0);stroke:black;stroke-width:3" />
+
 </svg>

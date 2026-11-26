@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE datos_asignaturaº">
+
+<datos_asignatura>
+    <asignatura>
+        <modulo>lenguaje de marcas y sistemas de gestión de información</modulo>
+        <ciclo>desarrollo de aplicaciones multiplataforma</ciclo>
+        <horas_semana>4</horas_semana>
+        <profesor>Dr. García</profesor>
+        <caracter>obligatoria</caracter>
+    </asignatura>
+
+    <duracion>
+        <fecha_inicio dia="15" mes="09" año="2011"></fecha_inicio>
+        <fecha_fin dia="30" mes="06" año="2011"/> </fecha_fin>
+        <horas>128</horas>
+        <creditos>8</creditos>
+    </duracion>
+
+    <alumnado>
+        <alumno>
+            <nombre>Ana</nombre>
+            <apellidos>Fernández Gutiérrez</apellidos>
+            <nif>16965696L</nif>
+            <telefono>789654321</telefono>
+            <email>ana.fdezgtrrez@hotmail.com</email>
+            <direccion calle=" C/ El Percebe" numero="13" localidad="Santander" codpostal="39302"/>
+            <calificacion>apto</calificacion>
+            <faltas_asistencia>Sin definir</faltas_asistencia>
+        </alumno>
+
+        <alumno>
+            <nombre>pepito</nombre>
+            <apellidos>grillo</apellidos>
+            <nif>98765432H</nif>
+            <telefono>656566555</telefono>
+            <email>yhyh@yahoo.com</email>
+            <direccion calle=" Avd. El Pez" numero="5" localidad="Suances" codpostal="39401"/>
+            <calificacion>apto</calificacion>
+            <faltas_asistencia>0</faltas_asistencia>
+        </alumno>
+    </alumnado>
+</datos_asignatura>
